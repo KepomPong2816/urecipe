@@ -1,0 +1,520 @@
+INFO - 2023-07-20 17:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 18:04:53 --> syntax error, unexpected token "/", expecting ":"
+in APPPATH\Views\admin.php on line 42.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('admin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 18:42:53 --> Invalid file: "admin/admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin', [], true)
+ 3 APPPATH\Controllers\Admin.php(17): view('admin/admin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 18:57:17 --> Undefined property: App\Controllers\Admin::$resepModel
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$resepModel', 'C:\\xampp\\htdocs\\urecipe\\app\\Controllers\\Admin.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 18:58:00 --> Undefined property: App\Controllers\Admin::$resepModel
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$resepModel', 'C:\\xampp\\htdocs\\urecipe\\app\\Controllers\\Admin.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:00:20 --> Undefined property: App\Controllers\Admin::$resepModel
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$resepModel', 'C:\\xampp\\htdocs\\urecipe\\app\\Controllers\\Admin.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:02:05 --> Undefined property: App\Controllers\Admin::$resepModel
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$resepModel', 'C:\\xampp\\htdocs\\urecipe\\app\\Controllers\\Admin.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:02:34 --> Undefined property: App\Controllers\Admin::$resepModel
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$resepModel', 'C:\\xampp\\htdocs\\urecipe\\app\\Controllers\\Admin.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:04:57 --> Invalid file: "admin/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/create', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:05:10 --> Invalid file: "admin/admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/admin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:05:22 --> Invalid file: "admin/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:05:37 --> Invalid file: "admin/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/create', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:06:12 --> Invalid file: "admin/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/create', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:07:12 --> Invalid file: "admin/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/create', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:07:35 --> Invalid file: "admin/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/create.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/create', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/create')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:07:48 --> Invalid file: "admin/admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin', [], true)
+ 3 APPPATH\Controllers\Admin.php(37): view('admin/admin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:08:22 --> Undefined property: App\Controllers\Admin::$resepModel
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$resepModel', 'C:\\xampp\\htdocs\\urecipe\\app\\Controllers\\Admin.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:09:29 --> Undefined property: App\Controllers\Admin::$resepModel
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$resepModel', 'C:\\xampp\\htdocs\\urecipe\\app\\Controllers\\Admin.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:16:46 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in SYSTEMPATH\Validation\Validation.php on line 214.
+ 1 SYSTEMPATH\Validation\Validation.php(214): in_array('if_exist', null, true)
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nama_resep', 'nama_resep', null, null, [...])
+ 3 APPPATH\Controllers\Admin.php(36): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:17:10 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in SYSTEMPATH\Validation\Validation.php on line 214.
+ 1 SYSTEMPATH\Validation\Validation.php(214): in_array('if_exist', null, true)
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nama_resep', 'nama_resep', null, null, [...])
+ 3 APPPATH\Controllers\Admin.php(36): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+INFO - 2023-07-20 19:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 19:32:23 --> Invalid file: "admin/admin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('admin/admin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:34:43 --> Invalid file: "admin/tambah_resep.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_resep.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/tambah_resep', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('admin/tambah_resep')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:36:07 --> Invalid file: "admin/tambah_resep.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_resep.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/tambah_resep', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('admin/tambah_resep')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:36:39 --> Invalid file: "admin/tambah_resep.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_resep.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/tambah_resep', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('admin/tambah_resep')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:45:35 --> Invalid file: "admin/tambah_resep.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_resep.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/tambah_resep', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('admin/tambah_resep')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:46:54 --> Invalid file: "admin/tambah_resep.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_resep.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/tambah_resep', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('admin/tambah_resep')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+CRITICAL - 2023-07-20 19:47:26 --> Invalid file: "admin/tambah_resep.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tambah_resep.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/tambah_resep', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('admin/tambah_resep')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+ERROR - 2023-07-20 19:49:35 --> mysqli_sql_exception: Column 'kategori' cannot be null in C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\urecipe\app\Controllers\Admin.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin->store()
+#9 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\urecipe\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-20 19:49:35 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asd\', NULL, NULL, NULL, NULL, \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asd\', NULL, NULL, NULL, NULL, \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asd\', NULL, NULL, NULL, NULL, \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (:nama_resep:, :deskripsi_resep:, :kategori:, :bahan:, :langkah:, :level:, :waktu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+ERROR - 2023-07-20 19:50:58 --> mysqli_sql_exception: Column 'kategori' cannot be null in C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\urecipe\app\Controllers\Admin.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin->store()
+#9 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\urecipe\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-20 19:50:58 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asd\', NULL, NULL, NULL, NULL, \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asd\', NULL, NULL, NULL, NULL, \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asd\', NULL, NULL, NULL, NULL, \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (:nama_resep:, :deskripsi_resep:, :kategori:, :bahan:, :langkah:, :level:, :waktu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+ERROR - 2023-07-20 19:51:53 --> mysqli_sql_exception: Column 'bahan' cannot be null in C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\urecipe\app\Controllers\Admin.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin->store()
+#9 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\urecipe\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-20 19:51:53 --> Column 'bahan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asdhjk\', \'asdhjk\', \'Makanan\', NULL, NULL, NULL, \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asdhjk\', \'asdhjk\', \'Makanan\', NULL, NULL, NULL, \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asdhjk\', \'asdhjk\', \'Makanan\', NULL, NULL, NULL, \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (:nama_resep:, :deskripsi_resep:, :kategori:, :bahan:, :langkah:, :level:, :waktu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+ERROR - 2023-07-20 19:52:48 --> mysqli_sql_exception: Column 'bahan' cannot be null in C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\urecipe\app\Controllers\Admin.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin->store()
+#9 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\urecipe\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-20 19:52:48 --> Column 'bahan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asdk\', \'Makanan\', NULL, NULL, NULL, \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asdk\', \'Makanan\', NULL, NULL, NULL, \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asd\', \'asdk\', \'Makanan\', NULL, NULL, NULL, \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (:nama_resep:, :deskripsi_resep:, :kategori:, :bahan:, :langkah:, :level:, :waktu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+ERROR - 2023-07-20 19:55:33 --> mysqli_sql_exception: Column 'langkah' cannot be null in C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\urecipe\app\Controllers\Admin.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin->store()
+#9 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\urecipe\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-20 19:55:33 --> Column 'langkah' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'zxc\', \'asd\', \'Makanan\', \'Taek\', NULL, NULL, \'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'zxc\', \'asd\', \'Makanan\', \'Taek\', NULL, NULL, \'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'zxc\', \'asd\', \'Makanan\', \'Taek\', NULL, NULL, \'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (:nama_resep:, :deskripsi_resep:, :kategori:, :bahan:, :langkah:, :level:, :waktu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+ERROR - 2023-07-20 19:56:02 --> mysqli_sql_exception: Column 'level' cannot be null in C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\urecipe\app\Controllers\Admin.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin->store()
+#9 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\urecipe\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-20 19:56:02 --> Column 'level' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'zxcnm\', \'hasdk\', \'Makanan\', \'Taek\', \'Silit\', NULL, \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'zxcnm\', \'hasdk\', \'Makanan\', \'Taek\', \'Silit\', NULL, \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'zxcnm\', \'hasdk\', \'Makanan\', \'Taek\', \'Silit\', NULL, \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (:nama_resep:, :deskripsi_resep:, :kategori:, :bahan:, :langkah:, :level:, :waktu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+ERROR - 2023-07-20 19:57:56 --> mysqli_sql_exception: Column 'kategori' cannot be null in C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\urecipe\app\Controllers\Admin.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin->store()
+#9 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\urecipe\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-20 19:57:56 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'ahsjdk\', \',mncxz\', NULL, NULL, NULL, NULL, \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'ahsjdk\', \',mncxz\', NULL, NULL, NULL, NULL, \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'ahsjdk\', \',mncxz\', NULL, NULL, NULL, NULL, \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (:nama_resep:, :deskripsi_resep:, :kategori:, :bahan:, :langkah:, :level:, :waktu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+ERROR - 2023-07-20 20:01:01 --> mysqli_sql_exception: Column 'kategori' cannot be null in C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\urecipe\app\Controllers\Admin.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin->store()
+#9 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\urecipe\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\urecipe\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-20 20:01:01 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asdhjk\', \'asdhjk\', NULL, NULL, NULL, NULL, \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asdhjk\', \'asdhjk\', NULL, NULL, NULL, NULL, \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (\'asdhjk\', \'asdhjk\', NULL, NULL, NULL, NULL, \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `resep` (`nama_resep`, `deskripsi_resep`, `kategori`, `bahan`, `langkah`, `level`, `waktu`) VALUES (:nama_resep:, :deskripsi_resep:, :kategori:, :bahan:, :langkah:, :level:, :waktu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\urecipe\\public\\index.php')
+INFO - 2023-07-20 20:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
